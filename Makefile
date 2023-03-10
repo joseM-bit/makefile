@@ -5,7 +5,7 @@ setup:
 	sudo apt install git
 git:
 	git.init
-insatll:
+install:
 	wget https://downloads.codelite.org/codelite/17.1.0/CodeLite-17.1.0-gtk3-ubuntu-jammy-x86_64.deb
 	sudo dpkg -i CodeLite-17.1.0-gtk3-ubuntu-jammy-x86_64.deb
 add:
