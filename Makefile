@@ -18,6 +18,6 @@ run:
 	codelite
 uninstall:
 	dpkg -l | grep codelite
-	dpkg -r codelite
+	sudo dpkg -r codelite
 delete:
 	rm -r CodeLite-17.1.0-gtk3-ubuntu-jammy-x86_64.deb
